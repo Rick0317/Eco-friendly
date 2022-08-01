@@ -1,2 +1,2 @@
 # Eco-friendly
-こんにちは！
+# Hi!
