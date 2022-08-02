@@ -20,6 +20,10 @@ How do we learn?
 
 ## Data
 What data can we get from Chrome?
+* Get performance result of loading the webpage
+* HTML source codes
+* APIs they use
+* Memory used by Objects [how to look at the memory section](https://developer.chrome.com/docs/devtools/memory-problems/heap-snapshots/)
 - TODO
 
 What data should we look at?
