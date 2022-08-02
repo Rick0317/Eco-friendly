@@ -35,3 +35,8 @@ How do we process the data?
 
 How do we present it to the user?
 - TODO
+
+## Resources
+If you find any helpful resources, add it here
+- https://techblog.geekyants.com/building-a-chrome-extension-in-2021
+- https://www.makeuseof.com/create-own-google-chrome-extension/
