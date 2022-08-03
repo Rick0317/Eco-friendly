@@ -16,6 +16,9 @@ and add our local file to our set of extensions.
 
 How do we learn?
 - Tutorials
+- Examples
+    - Extension that shows web page performance: https://github.com/micmro/performance-bookmarklet
+    - Sample extensions to build: https://github.com/GoogleChrome/chrome-extensions-samples
 - Documentation
 
 ## Data
@@ -38,5 +41,4 @@ How do we present it to the user?
 
 ## Resources
 If you find any helpful resources, add it here
-- https://techblog.geekyants.com/building-a-chrome-extension-in-2021
-- https://www.makeuseof.com/create-own-google-chrome-extension/
+- https://developer.chrome.com/docs/extensions/
