@@ -17,6 +17,7 @@ and add our local file to our set of extensions.
 How do we learn?
 - Tutorials
 - Examples
+    - HTML, CSS, JS for beginners: https://www.freecodecamp.org/news/html-css-and-javascript-explained-for-beginners/
     - Extension that shows web page performance: https://github.com/micmro/performance-bookmarklet
     - Sample extensions to build: https://github.com/GoogleChrome/chrome-extensions-samples
 - Documentation
