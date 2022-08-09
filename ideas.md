@@ -50,10 +50,19 @@ What data should we look at?
 
 ## Processing
 How do we process the data?
+
+My rough idea is to get data by APIs and store them temporarily in our temporarliy database, and then, fetch data from the database using some codes.
 - TODO
 
+We have to think about the database system and APIs.
+
 How do we present it to the user?
+
+We can present the result of our analysis as the browser extension in the following video
+https://gyazo.com/b67d9ed06a8d1111e4bcce6c15b2ec72
 - TODO
+
+I think this is the design part and can be passed to the end of our implementation. Our goal is to get data from Webpages and analyzing them.
 
 ## Resources
 If you find any helpful resources, add it here
