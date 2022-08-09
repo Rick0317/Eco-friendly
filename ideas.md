@@ -31,8 +31,12 @@ I suggest we try to use Rust with Yew as a framework for it.
 
 Rick: The reason I want to try Rust is 1) It is energy efficient compared to other languages. 2) The grammar is different from python, js and so by learning it, I think we can gain great experience.
 
+Kento: I like the idea of using Rust to focus on energy efficiency
+
 ### How do we learn?
 Rick: I think we learn how to code by doing, by which I mean we do not finish tutorials before we create our app, but rather, we use tutorial resources when we face some difficulties.
+
+Kento: Let's talk about this in our next meeting
 
 #### Tutorials
 Tutorial for Yew: https://yew.rs/docs/tutorial
