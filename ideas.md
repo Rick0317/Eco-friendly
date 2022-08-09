@@ -12,15 +12,18 @@ and add our local file to our set of extensions.
 4. If we want to add it as a public service, we just follow the instruction on the website below.
 [Publish Chrome Extensions](https://developer.chrome.com/docs/webstore/register/)
 - Development environment
+
 Can we use Next.js framework to create our frontend?
 Yew for Rust. 
 
 - Language
+
 Using HTML, CSS, JS to create web applicaiton is common, but JS can consume much energy compared to other language. 
 I suggest we try to use Rust with Yew as a framework for it. 
 The reason I(Rick) want to try Rust is 1) It is energy efficient compared to other languages. 2) The grammar is different from python, js and so by learning it, I think we can gain great experience.
 
 How do we learn?
+
 I(Rick) think we learn how to code by doing, by which I mean we do not finish tutorials before we create our app, but rather, we use tutorial resources when we face some difficulties.
 - Tutorials
 Tutorial for Yew: https://yew.rs/docs/tutorial
