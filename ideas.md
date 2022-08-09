@@ -67,3 +67,9 @@ I think this is the design part and can be passed to the end of our implementati
 ## Resources
 If you find any helpful resources, add it here
 - https://developer.chrome.com/docs/extensions/
+
+## Features to implement
+- Feature that encourage users to use
+
+We can enable users to manage their staying time on some browser. 
+This is for business persons/ students who want to stop procastination
