@@ -73,3 +73,7 @@ If you find any helpful resources, add it here
 
 We can enable users to manage their staying time on some browser. 
 This is for business persons/ students who want to stop procastination
+
+- Feature that encourage companies to create green webpages
+
+We can create a ranking of webpages based on their "greeness"
