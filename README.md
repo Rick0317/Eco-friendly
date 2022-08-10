@@ -1,7 +1,7 @@
 # Be Eco-friendly 
 ## Creating a browser extension with which visitors can expore the "Green Level" of the webpage.
 
-Goals
+### Goals
 
 Reduce carbon emissions and save the planet
 
@@ -12,7 +12,7 @@ Reduce carbon emissions and save the planet
 ← Visualize the energy efficiencies of webpages in a Chrome extension
 
 
-Why a Chrome extension?
+### Why a Chrome extension?
 - For us
     - Easy to develop and distribute
     - Learn the basics of web development (HTML, CSS, JS)
@@ -21,6 +21,6 @@ Why a Chrome extension?
     - Chrome is the world's most used browser
     - Easy to add and access from a browser
 
-Limitations
+### Limitations
 - Cannot measure the energy efficiencies of remote processes
 - Cannot access all information in Chrome
