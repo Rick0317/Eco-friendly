@@ -1,0 +1,1 @@
+# Using the python library "BeautifulSoup" is the best way to extract html data I think
