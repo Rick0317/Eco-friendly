@@ -4,3 +4,6 @@
 ## For now, my problem is, 
 * how should we incorporate python and js files
 * how should we write the two functions using just one language
+* we also need to show the performance of the user's computer
+
+## I will have a separate repo in which I'll test my extension
