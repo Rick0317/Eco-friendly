@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Testing</title>
+
+  </head>
+  <body>
+    <script>
+      
+
+      async function getData(url){
+        await fetch(url, { mode: 'no-cors'})
+          .then((res) => {
+            console.log(res); // No response data available
+          })
+          .then((data) => {
+            console.log(data)
+          })
+          .catch( (e) => {
+            console.log(e);
+          });
+      }
+      url = "https://www.bbc.com/";
+      getData(url)
+    </script>
+  </body>
+</html>
