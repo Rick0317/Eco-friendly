@@ -4,6 +4,7 @@ On the page where the extension is clicked,
 
 - Get the URL
 - Get the length of data received
+- Try it on heavy websites (YouTube, Google Images, etc) for best results
 
 ### How it works
 
