@@ -25,8 +25,12 @@ chrome.tabs.query(
         console.log((html.match(/<img>|img/g)).length)
         if((html.match(/<img>|img/g)).length < 50) {
           document.getElementById("image_greenness").innerHTML = `&#128516`
-        }else {
+        }
+        else if((html.match(/<img>|img/g)).length < 100){
           document.getElementById("image_greenness").innerHTML = `&#128529`
+        }
+        else {
+          document.getElementById("image_greenness").innerHTML = `&#128534`
         }
 
     })
