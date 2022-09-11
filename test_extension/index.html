@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Welcome to my extension!</title>
+  <link rel="stylesheet" href="style/main.css">
+</head>
+<body style="margin: 0;">
+  <div class="header_box">
+    <header class="header"><b>Let's explore my extension!</b></header>
+  </div>
+  <div class="body">
+    <p>This extension gives you the idea of how green the websites are</p>
+    <p id="url"></p>
+    <p id="dataReceived"></p>
+    <table>
+      <tr>
+        <th>Properties</th>
+        <th>Image</th>
+      </tr>
+      <tr>
+        <td>Greenness</td>
+        <td id="image_greenness">&#128516</td>
+      </tr>
+    </table>
+    <p>Do you want to block this website?</p>
+    <button type="button" id="block_button">Block</button>
+  </div>
+  <div class="footer">
+    <a href="https://www.amazon.com/">Upgrade to Pro!</a>
+    <p id="copyright">©Afxisi Japada 2022</p>
+  </div>
+  <script src="background.js">
+  </script>
+</body>
+</html>
