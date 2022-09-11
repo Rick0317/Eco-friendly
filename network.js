@@ -33,7 +33,7 @@ chrome.storage.local.get(
               function(source, method, params) { // callback
                 if (method == "Network.loadingFinished") {
                   kb = params.encodedDataLength / 1000;
-                  document.getElementById("dataReceived").innerHTML = `${kb} KB`
+                  document.getElementById("data_received").innerHTML = `${kb} KB`
                 }
               }
             )

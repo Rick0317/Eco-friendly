@@ -5,6 +5,18 @@
   "manifest_version": 3,
   "permissions": ["debugger", "storage", "tabs"],
   "action": {
-    "default_popup": "popup.html"
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "images/earth.png",
+      "32": "images/earth.png",
+      "48": "images/earth.png",
+      "128": "images/earth.png"
+    },
+    "icons": {
+      "16": "images/earth.png",
+      "32": "images/earth.png",
+      "48": "images/earth.png",
+      "128": "images/earth.png"
+    }
   }
 }

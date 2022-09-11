@@ -1,12 +1,30 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link rel="stylesheet" href="style/main.css">
   </head>
   <body>
-    <h3>URL</h3>
-    <p id="url"></p>
-    <h3>Data received</h3>
-    <p id="dataReceived"></p>
-    <script src="popup.js"></script>
+    <table>
+      <tr>
+        <th>Properties</th>
+        <th>Info</th>
+      </tr>
+      <tr>
+        <td>URL</td>
+        <td id="url"></td>
+        <td>Data received</td>
+        <td id="data_received"></td>
+        <td>Image count</td>
+        <td id="image_count"></td>
+      </tr>
+    </table>
+
+    <div class="footer">
+      <a href="https://www.amazon.com/">Upgrade to Pro!</a>
+      <p>©Afxisi Japada 2022</p>
+    </div>
+
+    <script src="network.js"></script>
+    <script src="images.js"></script>
   </body>
 </html>
