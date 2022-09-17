@@ -32,6 +32,7 @@ chrome.storage.local.get(
     
               function(source, method, params) { // callback
                 if (method == "Network.loadingFinished") {
+                  console.log(params)
                   kb = params.encodedDataLength / 1000;
                   document.getElementById("data_received").innerHTML = `${kb} KB`
                 }
