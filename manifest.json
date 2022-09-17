@@ -3,8 +3,17 @@
   "description": "TODO",
   "version": "1.0",
   "manifest_version": 3,
-  "permissions": ["debugger", "storage", "tabs"],
+  "permissions": ["debugger", "storage", "tabs", "cookies"],
   "host_permissions": ["<all_urls>"],
+  "background": {
+    "service_worker": "network.js"
+  },
+  "content_scripts":[
+    {
+      "matches":["<all_urls>"],
+      "js":["block.js"]
+    }
+  ],
   "action": {
     "default_popup": "popup.html",
     "default_icon": {

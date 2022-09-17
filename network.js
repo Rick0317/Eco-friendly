@@ -4,11 +4,18 @@ chrome.tabs.query(
   { active: true }, // queryInfo
 
   function(tabs) { // callback
+    
     let debuggee = {tabId: tabs[0].id};
     chrome.storage.local.set({ debuggee });
     document.getElementById("url").innerHTML = tabs[0].url
   }
 );
+chrome.action.onClicked.addListener((tab) => {
+  chrome.scripting.executeScript({
+    target: { tabId: tab.id },
+    files: ['block.js']
+  });
+});
 
 chrome.storage.local.get(
   "debuggee", // key
@@ -22,6 +29,7 @@ chrome.storage.local.get(
         if (chrome.runtime.lastError) {
           return
         };
+
         chrome.debugger.sendCommand(
           debuggee.debuggee, // target
           "Network.enable", // method
@@ -29,8 +37,9 @@ chrome.storage.local.get(
     
           function() { // callback
             chrome.debugger.onEvent.addListener(
+              
     
-              function(source, method, params) { // callback
+              function(debuggee, method, params) { // callback
                 if (method == "Network.loadingFinished") {
                   kb = params.encodedDataLength / 1000;
                   document.getElementById("data_received").innerHTML = `${kb} KB`
