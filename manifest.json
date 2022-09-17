@@ -4,29 +4,19 @@
   "version": "1.0",
   "manifest_version": 3,
   "permissions": ["debugger", "storage", "tabs", "cookies"],
-  "host_permissions": ["<all_urls>"],
-  "background": {
-    "service_worker": "network.js"
-  },
-  "content_scripts":[
-    {
-      "matches":["<all_urls>"],
-      "js":["block.js"]
-    }
-  ],
   "action": {
     "default_popup": "popup.html",
     "default_icon": {
-      "16": "images/earth.png",
-      "32": "images/earth.png",
-      "48": "images/earth.png",
-      "128": "images/earth.png"
+      "16": "images/earth-16.png",
+      "32": "images/earth-32.png",
+      "48": "images/earth-48.png",
+      "128": "images/earth-128.png"
     },
     "icons": {
-      "16": "images/earth.png",
-      "32": "images/earth.png",
-      "48": "images/earth.png",
-      "128": "images/earth.png"
+      "16": "images/earth-16.png",
+      "32": "images/earth-32.png",
+      "48": "images/earth-48.png",
+      "128": "images/earth-128.png"
     }
   }
 }
