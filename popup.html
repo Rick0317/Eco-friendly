@@ -1,25 +1,35 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="style/main.css">
   </head>
-  <body>
-    <table>
-      <tr>
-        <th>Properties</th>
-        <th>Info</th>
-      </tr>
-      <tr>
-        <td>URL</td>
-        <td id="url"></td>
-        <td>Data received</td>
-        <td id="data_received"></td>
-        <td>Image count</td>
-        <td id="image_count"></td>
-        <td>Cookies count</td>
-        <td id="cookies"></td>
-      </tr>
-    </table>
+  <body style="margin: 0;">
+    <div class="header_box">
+      <header class="header"><b>Let's explore my extension!</b></header>
+    </div>
+    <div class="body">
+      <p>This extension gives you the idea of how green the websites are</p>
+      <p id="url"></p>
+      <p id="data_amount"></p>
+      <table>
+        <tr>
+          <th>Properties</th>
+          <th>Info</th>
+        </tr>
+        <tr>
+          <td>URL</td>
+          <td id="url"></td>
+          <td>Data received</td>
+          <td id="data_received"></td>
+          <td>Image count</td>
+          <td id="image_count"></td>
+          <td>Cookies count</td>
+          <td id="cookies"></td>
+        </tr>
+      </table>
+      <p>Do you want to block this website?</p>
+      <button type="button" id="block_button">Block</button>
+    </div>
     <p id="profiler"></p>
     <div class="footer">
       <a href="https://www.amazon.com/">Upgrade to Pro!</a>

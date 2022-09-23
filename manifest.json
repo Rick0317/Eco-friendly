@@ -3,8 +3,16 @@
   "description": "TODO",
   "version": "1.0",
   "manifest_version": 3,
-  "permissions": ["debugger", "storage", "tabs", "cookies"],
+  "permissions": ["debugger", "storage", "tabs", "cookies","declarativeNetRequest",
+  "declarativeNetRequestFeedback"],
   "host_permissions": ["<all_urls>"],
+  "declarative_net_request" : {
+    "rule_resources" : [{
+      "id": "ruleset_1",
+      "enabled": true,
+      "path": "rules_1.json"
+    }]
+  },
   "action": {
     "default_popup": "popup.html",
     "default_icon": {
