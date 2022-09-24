@@ -1,16 +1,23 @@
 .header_box {
   text-align: center;
-  background-color: #F0F3F4;
+  background-color: #1fe01169;
   padding: 0%;
   border: 0ch;
-  margin: 3px;
+}
+.subheader_box {
+  text-align: center;
+  background-color: #286ff169;
+  padding: 0%;
+  border: 0ch;
 }
 .header {
-  height: 60px;
-  width: 300px;
-  font-size: large;
+  height: 10%;
+  width: 100%;
   color: #F39C12;
   font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .body {
   text-align: center;
@@ -18,7 +25,8 @@
   height: 400px;
   padding: 0%;
   border: 0ch;
-  margin: 3px;
+  margin: 0px;
+  opacity: 0.7;
 }
 .group {
   display: flex;
@@ -33,7 +41,7 @@
 }
 .bar{
   display: inline-block;
-  width: 15%;
+  width: 15%; /* 15%; */
 }
 .bar1{
   background-color: red;
@@ -54,13 +62,56 @@ table, th, td {
   border: 1px solid black;
 }
 .footer {
-  text-align: center;
+  text-align: right;
+  left: 50%;
   background-color: green;
   height: 50px;
   padding: 0%;
   border: 0ch;
   margin: 3px;
+  opacity: 1.0;
 }
 #copylright {
   size: 5px;
 }
+/* background video class */
+.back-video{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  max-height: 95%;
+}
+
+
+/* Used for ensuring background works for all screensizes */
+/*
+@media (min-aspect-ratio: 16/9){
+  .back-video{
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (min-aspect-ratio: 16/9){
+  .back-video{
+    width: auto;
+    height: 100%;
+  }
+}
+*/
+.alignleft {
+  float: left;
+  width:33.33333%;
+  text-align:left;
+}
+.aligncenter {
+  float: left;
+  width:33.33333%;
+  text-align:center;
+}
+.alignright {
+ float: left;
+ width:33.33333%;
+ text-align:right;
+}​
