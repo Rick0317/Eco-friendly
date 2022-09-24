@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a593d29b358bfab61e9a1a47d5c3a79ab3bfb5e5
 .header_box {
   text-align: center;
   background-color: #F0F3F4;
@@ -21,6 +24,26 @@
   border: 0ch;
   margin: 3px;
 }
+.property-1{
+  text-align: left;
+}
+#pointer-1{
+}
+.bar-1{
+  background: red;
+}
+.bar-2{
+  background: orange;
+}
+.bar-3{
+  background: yellow;
+}
+.bar-3{
+  background: yellowgreen;
+}
+.bar-4{
+  background: green;
+}
 table, th, td {
   border: 1px solid black;
 }
@@ -34,9 +57,13 @@ table, th, td {
 }
 #copylright {
   size: 5px;
+<<<<<<< HEAD
 }
 =======
 body {
     background-color: powderblue;
   }
 >>>>>>> fc8ef2a550e2a800d550f843d276c51c831e2a0a
+=======
+}
+>>>>>>> a593d29b358bfab61e9a1a47d5c3a79ab3bfb5e5
