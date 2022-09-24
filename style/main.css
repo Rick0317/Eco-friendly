@@ -20,6 +20,27 @@
   border: 0ch;
   margin: 3px;
 }
+.property-1{
+  text-align: left;
+}
+#pointer-1{
+}
+.bar-1{
+  background: red;
+}
+.bar-2{
+  background: orange;
+}
+.bar-3{
+  background: yellow;
+}
+.bar-3{
+  background: yellowgreen;
+}
+.bar-4{
+  background: green;
+}
+
 table, th, td {
   border: 1px solid black;
 }
