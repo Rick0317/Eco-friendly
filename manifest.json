@@ -5,13 +5,6 @@
   "manifest_version": 3,
   "permissions": ["debugger", "storage", "tabs", "cookies"],
   "host_permissions": ["<all_urls>"],
-  "declarative_net_request" : {
-    "rule_resources" : [{
-      "id": "ruleset_1",
-      "enabled": true,
-      "path": "rules_1.json"
-    }]
-  },
   "action": {
     "default_popup": "popup.html",
     "default_icon": {

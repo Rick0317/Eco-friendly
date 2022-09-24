@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .header_box {
   text-align: center;
   background-color: #F0F3F4;
@@ -34,3 +35,8 @@ table, th, td {
 #copylright {
   size: 5px;
 }
+=======
+body {
+    background-color: powderblue;
+  }
+>>>>>>> fc8ef2a550e2a800d550f843d276c51c831e2a0a
