@@ -16,8 +16,41 @@ chrome.tabs.query(
                 }
             })
             .then(function (html) {
-                console.log((html.match(/<img>|img/g)).length)
-                document.getElementById("image_count").innerHTML = `${(html.match(/<img>|img/g)).length}`//matches the image tags in the html string
+                const imageCount = (html.match(/<img>|img/g)).length
+                console.log(imageCount);
+                document.getElementById("image_count").innerHTML = `${imageCount}`;//matches the image tags in the html string
+                console.log("before if");
+                
+                let source=document.createElement("source");
+                let video=document.createElement("video")
+                source.type="video/mp4"
+                video.className="back-video"
+                video.autoplay=true
+                video.loop=true
+                video.muted=true
+                video.setAttribute("plays-inline", true)
+                v = document.getElementById("greenness_image")
+                if (imageCount < 10) {
+                    console.log("if");
+                    
+                    source.src="images/green.mp4"
+                    
+                    
+
+                } else if (imageCount < 20) {
+                    console.log("elif");
+                    source.src = "images/moderate.mp4";
+                } else {
+                    console.log("else");
+                    source.src = "images/red.mp4";
+                }
+                video.appendChild(source)
+                document.body.appendChild(video)
+
+
+    
+
+
             })
             .catch(function (response) {
                 // "Not Found"
