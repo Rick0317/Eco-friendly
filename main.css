@@ -20,32 +20,42 @@
   border: 0ch;
   margin: 3px;
 }
+.group {
+  display: flex;
+  margin: 0%;
+  padding: 0%;
+  border: 0;
+}
 .property-1{
   text-align: left;
 }
 #pointer-1{
 }
-.bar-1{
-  background: red;
+.bar{
+  display: inline-block;
+  width: 15%;
 }
-.bar-2{
-  background: orange;
+.bar1{
+  background-color: red;
 }
-.bar-3{
-  background: yellow;
+.bar2{
+  background-color: orange;
 }
-.bar-3{
-  background: yellowgreen;
+.bar3{
+  background-color: yellow;
 }
-.bar-4{
-  background: green;
+.bar4{
+  background-color: yellowgreen;
+}
+.bar5{
+  background-color: green;
 }
 table, th, td {
   border: 1px solid black;
 }
 .footer {
   text-align: center;
-  background-color: gray;
+  background-color: green;
   height: 50px;
   padding: 0%;
   border: 0ch;
