@@ -21,6 +21,3 @@ Reduce carbon emissions and save the planet
     - Chrome is the world's most used browser
     - Easy to add and access from a browser
 
-### Limitations
-- Cannot measure the energy efficiencies of remote processes
-- Cannot access all information in Chrome
