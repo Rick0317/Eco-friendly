@@ -11,5 +11,6 @@ async function getPage() {
     const annualEnergyPerUser = 0.81;
     const carbonFactor = 442;
     const carbonFootprint = gb * annualEnergyPerUser * carbonFactor;
+    document.getElementById("carbonFootprint").innerHTML=`${Number(carbonFootprint.toFixed(4))}g`
   })
 }

@@ -22,11 +22,14 @@
 .body {
   text-align: center;
   background-color: whitesmoke;
-  height: 400px;
+  height: 500px;
   padding: 0%;
   border: 0ch;
   margin: 0px;
   opacity: 0.7;
+}
+.carbon{
+  display: inline-block;
 }
 .group {
   display: flex;
