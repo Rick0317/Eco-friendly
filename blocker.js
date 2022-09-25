@@ -1,3 +1,4 @@
+
 let block_site = () =>{
   chrome.tabs.query(
     { active: true }, // queryInfo
@@ -12,4 +13,6 @@ let block_site = () =>{
     }
   ); 
 }
+
+
 document.getElementById("block_button").addEventListener("click",block_site)
