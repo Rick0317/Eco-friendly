@@ -20,7 +20,7 @@ function getNetwork(debuggee) {
     chrome.debugger.onEvent.addListener((source, method, params) => {
       if (method == "Network.loadingFinished") {
         kb += params.encodedDataLength / 1000;
-        document.getElementById("data_received").innerHTML = `${kb} KB`;
+        document.getElementById("data_received").innerHTML = `${kb.toFixed(0)} KB`;
       }
     })
   })
