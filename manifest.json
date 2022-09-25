@@ -3,7 +3,7 @@
   "description": "TODO",
   "version": "1.0",
   "manifest_version": 3,
-  "permissions": ["debugger", "storage", "tabs", "cookies"],
+  "permissions": ["cookies", "debugger", "storage", "tabs"],
   "host_permissions": ["<all_urls>"],
   "action": {
     "default_popup": "popup.html",
