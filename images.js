@@ -17,9 +17,11 @@ chrome.tabs.query(
             })
             .then(function (html) {
                 const imageCount = (html.match(/<img>|img/g)).length
+                var meter = document.getElementById("image_count_bar");
                 console.log(imageCount);
                 document.getElementById("image_count").innerHTML = `${imageCount}`;//matches the image tags in the html string
                 console.log("before if");
+                imageCount < 5 ? meter.setAttribute("value", 10) : imageCount < 10 ? meter.setAttribute("value", 50) : meter.setAttribute("value", 80);
                 
                 let source=document.createElement("source");
                 let video=document.createElement("video");
