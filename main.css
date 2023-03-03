@@ -40,8 +40,6 @@
 .property-1{
   text-align: left;
 }
-#pointer-1{
-}
 .bar{
   display: inline-block;
   width: 15%; /* 15%; */
@@ -117,4 +115,4 @@ table, th, td {
  float: left;
  width:33.33333%;
  text-align:right;
-}​
+}
