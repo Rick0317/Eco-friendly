@@ -40,25 +40,6 @@
 .property-1{
   text-align: left;
 }
-.bar{
-  display: inline-block;
-  width: 15%; /* 15%; */
-}
-.bar1{
-  background-color: red;
-}
-.bar2{
-  background-color: orange;
-}
-.bar3{
-  background-color: yellow;
-}
-.bar4{
-  background-color: yellowgreen;
-}
-.bar5{
-  background-color: green;
-}
 table, th, td {
   border: 1px solid black;
 }
@@ -82,6 +63,7 @@ table, th, td {
   bottom: 0;
   z-index: -1;
   max-height: 95%;
+  opacity: 0.3;
 }
 
 
@@ -115,4 +97,10 @@ table, th, td {
  float: left;
  width:33.33333%;
  text-align:right;
+}
+
+.measure_bar{
+  width: 200px;
+  height: 10px;
+  margin: 10px 0;
 }
